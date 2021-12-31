@@ -1,0 +1,3 @@
+/* Initialize user with IAM auth */
+CREATE USER cgx;
+GRANT rds_iam TO cgx;
