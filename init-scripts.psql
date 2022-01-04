@@ -1,3 +1,4 @@
 /* Initialize user with IAM auth */
 CREATE USER cgx;
 GRANT rds_iam TO cgx;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
